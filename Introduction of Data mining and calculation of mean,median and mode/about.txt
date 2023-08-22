@@ -1,0 +1,1 @@
+Introduction of Data mining and calculation of mean,median and mode
