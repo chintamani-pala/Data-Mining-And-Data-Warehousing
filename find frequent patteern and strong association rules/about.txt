@@ -1,0 +1,1 @@
+find frequent patteern and strong association rules
