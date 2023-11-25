@@ -1,1 +1,44 @@
-Introduction of Data mining and calculation of mean,median and mode
+Data Mining, also popularly known as Knowledge Discovery in Databases (KDD), refers to the nontrivial extraction of implicit, previously unknown and potentially useful information from data in databases. While data mining and knowledge discovery in databases (or KDD) are frequently treated as synonyms, data mining is actually part of the knowledge discovery process. The Knowledge Discovery in Databases process comprises of a few steps leading from raw data collections to some form of new knowledge. The iterative process consists of the following steps:
+
+•	Data cleaning: also known as data cleansing, it is a phase in which noise data and irrelevant data are removed from the collection. 
+•	Data integration: at this stage, multiple data sources, often heterogeneous, may be combined in a common source.
+•	Data selection: at this step, the data relevant to the analysis is decided on and retrieved from the data collection.
+•	Data transformation: also known as data consolidation, it is a phase in which the selected data is transformed into forms appropriate for the mining procedure. 
+•	Data mining: it is the crucial step in which clever techniques are applied to extract patterns potentially useful. 
+•	Pattern evaluation: in this step, strictly interesting patterns representing knowledge are identified based on given measures.
+•	Knowledge representation: is the final phase in which the discovered knowledge is visually represented to the user. This essential step uses visualization techniques to help users understand and interpret the data mining results.
+MEAN
+The sample mean is the average and is computed as the sum of all the observed outcomes from the sample divided by the total number of events.  We use x as the symbol for the sample mean.  In math terms, 
+
+
+Where n are the sample size and the x corresponding to the observed valued.
+Example:
+Suppose you randomly sampled six acres in the Desolation Wilderness for a non-indigenous weed and came up with the following counts of this weed in this region:
+        			34, 43, 81, 106, 106 and 115 
+We compute the sample mean by adding and dividing by the number of samples, 6.
+           			(34 + 43 + 81 + 106 + 106 + 115)/6=80.83                                                               
+MEDIAN
+ The median is the middle score.  If we have an even number of events we take the average of the two middles.  The median is better for describing the typical value.  It is often used for income and home prices.
+Example
+Suppose you randomly selected 10 house prices in the South Lake Tahoe area.  Your are interested in the typical house price.  In $100,000 the prices were
+       				 2.7,   2.9,   3.1,   3.4,   3.7, 4.1,   4.3,   4.7, 4.7, 40.8
+If we computed the mean, we would say that the average house price is 744,000.  Although this number is true, it does not reflect the price for available housing in South Lake Tahoe.  A closer look at the data shows that the house valued at 40.8 x $100,000 = $4.08 million skews the data.  Instead, we use the median.  Since there is an even number of outcomes, we take the average of the middle two
+    				 (3.7 + 4.1)/2=3.9
+MODE
+The mode of a set of data is the number with the highest frequency.  
+Example
+Suppose you randomly sampled six acres in the Desolation Wilderness for a non-indigenous weed and came up with the following counts of this weed in this region:
+
+       				 34, 43, 81, 106, 106 and 115 
+In this example 106 is the mode, since it occurs twice and the rest of the outcomes occur only once.
+
+
+
+
+VARIENCE
+We define the variance to be 
+
+STANDARD DEVIATION
+The standard deviation to be
+        
+
