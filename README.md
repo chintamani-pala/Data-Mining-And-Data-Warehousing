@@ -47,7 +47,7 @@ The experiment covers a range of data mining methodologies and calculations, aim
   - [dissimilarity matrix generation for binary attribute.py]
   - [DataSet1.csv] 
 - **[Frequent_Patterns_Association_Rules.ipynb]**: Finding frequent patterns and association rules
-  -[find-frequent-patteern-and-strong-association-rules.py] 
+  -  [find-frequent-patteern-and-strong-association-rules.py] 
 
 ## How to Use
 
