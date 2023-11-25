@@ -1,1 +1,19 @@
-find frequent patteern and strong association rules
+Frequent Patterns:
+Frequent patterns refer to sets of items or attributes that frequently occur together in a dataset. It involves identifying combinations of items that appear together more often than others. For instance, in market basket analysis, frequent itemsets help identify commonly co-purchased items.
+
+Association Rules:
+Association rules express relationships between different items in a dataset. They typically consist of an antecedent (if) and a consequent (then). These rules aim to find strong connections between items or attributes. For instance, in retail, association rules might indicate that customers who buy product A are highly likely to buy product B as well.
+
+Support, Confidence, and Lift:
+Support: Indicates how frequently a pattern or rule appears in the dataset.
+Confidence: Measures the reliability of the rule—how often the rule has been found to be true.
+Lift: Reflects how much more likely items are to be bought together compared to what would be expected based on their individual support.
+Importance in Data Mining:
+Identifying frequent patterns and strong association rules is crucial in various fields:
+Market basket analysis for retail recommendations.
+Medical diagnosis for finding patterns in symptoms.
+Web usage mining for understanding user behavior.
+Fraud detection by recognizing unusual associations.
+Implementation:
+Algorithms like Apriori and FP-Growth are commonly used to discover frequent patterns and generate association rules.
+These algorithms use support and confidence thresholds to filter patterns and rules.
