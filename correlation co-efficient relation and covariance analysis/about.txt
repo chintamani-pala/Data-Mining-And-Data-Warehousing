@@ -1,1 +1,24 @@
-correlation co-efficient relation and covariance analysis
+Correlation
+
+Correlation, statistical technique which determines how one variables moves/changes in relation with the other variable. It gives us the idea about the degree of the relationship of the two variables. It’s a bi-variate analysis measure which describes the association between different variables. In most of the business it’s useful to express one subject in terms of its relationship with others. For example: Sales might increase if lot of money is spent on products.
+
+Why it is useful?
+
+1. If two variables are closely correlated, then we can predict one variable from the other.
+2. Correlation plays a vital role in locating the important variables on which other variables depend.
+3. it’s used as the foundation for various modeling techniques.
+4. Proper correlation analysis leads to better understanding of data.
+5. Correlation contributes towards the understanding of causal relationship (if any).
+
+Covariance: 
+
+The prefix ‘Co’ defines some kind of joint action and variance refers to the change or variation. So it says, two variables are related based on how these variables change in relation with each other.
+But wait, is covariance same as correlation? As covariance says something on same lines as correlation, correlation takes a step further than covariance and also tells us about the strength of the relationship. Both can be positive or negative. Covariance is positive if one increases other also increases and negative if one increases other decreases. Covariance is calculated as ;
+
+ 
+
+Xᵢ= Observation point of variable X
+x̅= Mean of all observations(X)
+Yᵢ= Observation point of variable Y
+ȳ = Mean of all observations(Y)
+n= Number of observations
