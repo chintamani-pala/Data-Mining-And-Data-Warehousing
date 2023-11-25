@@ -1,0 +1,2 @@
+
+Normalization(min-max,z-score,decinmal scaling ) technique
