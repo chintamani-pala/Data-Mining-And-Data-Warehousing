@@ -23,19 +23,31 @@ The experiment covers a range of data mining methodologies and calculations, aim
 
 ## Included Files and Folders
 
-- **[Decision_Tree_Algorithm.py]**: Implementation of Decision Tree Algorithm
-- **[Statistical_Calculations.ipynb]**: Notebook demonstrating Mean, Median, and Mode calculations
-- **[KMeans_Clustering.py]**: Code showcasing K-Means Clustering
-- **[kNN_Classifier.ipynb]**: Notebook demonstrating kNN Classifier implementation
+- **[decitionTree.py]**: Implementation of Decision Tree Algorithm
+- **[mean-median-mode.py]**: Notebook demonstrating Mean, Median, and Mode calculations
+- **[kmeans technique]**: Code showcasing K-Means Clustering
+  -[kmeans.py]
+  -[iris.csv]
+- **[kNN_Classifier]**: Notebook demonstrating kNN Classifier implementation
+  - [kNN.py]
+  - [Height.txt]
 - **[Naive_Bayesian_Classifier.py]**: Implementation of Naive Bayesian Classifier
+  - [Naive.py]
+  - [play_tennis.csv]
 - **[Normalization_Techniques]**:
-  - [min_max_normalization.py]
-  - [z_score_normalization.py]
-  - [decimal_scaling.py]
+  - [Normalization(min-max,z-score,decinmal scaling ) technique/Normalization(min-max,z-score,decinmal scaling ) technique.py]
+  - [Toyota.csv]
 - **[Visualization_Tool_Plots]**: Folder containing graphs plotted using visualization tools
+  - [Ploting graphs using visualization tool.py]
+  - [Iris.csv]
 - **[Correlation_Analysis.ipynb]**: Notebook for Correlation Coefficient and Covariance Analysis
+  - [correlation co-efficient relation and covariance analysis.py]
+  - [student-mat.csv]
 - **[Dissimilarity_Matrix_Generation.ipynb]**: Implementation for generating dissimilarity matrices
+  - [dissimilarity matrix generation for binary attribute.py]
+  - [DataSet1.csv] 
 - **[Frequent_Patterns_Association_Rules.ipynb]**: Finding frequent patterns and association rules
+  -[find-frequent-patteern-and-strong-association-rules.py] 
 
 ## How to Use
 
@@ -44,23 +56,8 @@ The experiment covers a range of data mining methodologies and calculations, aim
 
 ## Contributors
 
-- [Your Name]
-- [Collaborator Names, if applicable]
+- [Chintamani Pala]
 
 ## Resources Used
 
-- [List any resources, books, articles, or datasets used during the experiment]
-
-## Acknowledgments
-
-- [Thank anyone who contributed, offered guidance, or provided resources for your experiment]
-
-## License
-
-[Specify the license for your materials, if applicable]"""
-
-# Write the content to a README.md file
-with open('README.md', 'w') as file:
-    file.write(readme_content)
-
-print("README.md file has been created successfully!")
+- [Book,ChatGPT]
