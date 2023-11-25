@@ -1,1 +1,22 @@
-dissimilarity matrix generation for binary attribute
+Generation of dissimilarity matrix for Binary Attribute:
+The Dissimilarity matrix is a matrix that expresses the similarity pair to pair between two sets. It's square and symmetric. The diagonal members are defined as zero, meaning that zero is the measure of dissimilarity between an element and itself. Dissimilarity matrix (or object-by-object structure): This structure stores a collection of proximities that are available for all pairs of n objects. It is often represented by an n-by-n table.
+For symmetric binary attributes, each state is equally valuable. Dissimilarity that is based on symmetric binary attributes is called symmetric binary dissimilarity. If objects i and j are described by symmetric binary attributes, then the dissimilarity between i and j is
+d(i,j)=(r+s)/(q+r+s+t)
+
+For asymmetric binary attributes, the two states are not equally important, such as the positive (1) and negative (0) outcomes of a disease test. Given two asymmetric binary attributes, the agreement of two 1s (a positive match) is then considered more significant than that of two 0s (a negative match). therefore, such binary attributes are often considered “monary” (having one state). The dissimilarity based on these attributes is called asymmetric binary dissimilarity, where the number of negative matches, t , is considered unimportant and is thus ignored in the following computation:
+d(i,j)=(r+s)/(q+r+s)
+
+Generation of dissimilarity matrix for Numerical Attribute:
+we describe distance measures that are commonly used for computing the dissimilarity of objects described by numeric attributes. These measures include the Euclidean, Manhattan, and Minkowski distances. The most popular distance measure is Euclidean distance (i.e., straight line or “as the crow flies”). Let i=(xi1, xi2, … , xip/) and j =(xj1, xj2, …, xjp) be two objects described by p numeric attributes. The Euclidean distance between objects i and j is defined as
+d(i,j)=√((x_i1-x_j1 )^2+(x_i2-x_j2 )^2+⋯+〖(x_ip-x_jp)〗^2 )
+Another well-known measure is the Manhattan (or city block) distance, named so because it is the distance in blocks between any two points in a city (such as 2 blocks down and 3 blocks over for a total of 5 blocks). It is defined as
+d(i,j)=|x_i1-x_j1 |+|x_i2-x_j2 |+⋯+|x_ip-x_jp |
+
+Generation of dissimilarity matrix for Nominal Attribute:
+Let the number of states of a nominal attribute be M. The states can be denoted by letters, symbols, or a set of integers, such as 1, 2, … , M. Notice that such integers are used just for data handling and do not represent any specific ordering. The dissimilarity between two objects i and j can be computed based on the ratio of
+Mismatches:
+d(i,j)=(p-m)/p
+
+Where m is the number of matches (i.e., the number of attributes for which i and j are in the same state), and p is the total number of attributes describing the objects. Weights can be assigned to increase the effect of m or to assign greater weight to the matches in attributes having a larger number of states.
+
+
