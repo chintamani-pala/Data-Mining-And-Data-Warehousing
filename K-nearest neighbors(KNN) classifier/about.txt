@@ -1,0 +1,10 @@
+Say we are given a data set of items, each having numerically valued features (like Height, Weight, Age, etc). If the count of features is n, we can represent the items as points in an n-dimensional grid. Given a new item, we can calculate the distance from the item to every other item in the set. We pick the k closest neighbors and we see where most of these neighbors are classified in. We classify the new item there.
+So the problem becomes how we can calculate the distances between items. The solution to this depends on the data set. If the values are real we usually use the Euclidean distance. If the values are categorical or binary, we usually use the Hamming distance.
+
+Algorithm:
+
+Given a new item:
+    1. Find distances between new item and all other items
+    2. Pick k shorter distances
+    3. Pick the most common class in these k distances
+    4. That class is where we will classify the new item
