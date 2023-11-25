@@ -1,0 +1,3 @@
+The Naive Bayes classifier is a probabilistic machine learning algorithm used for classification tasks. It's based on Bayes' theorem and assumes that the presence of a particular feature in a class is unrelated to the presence of any other feature. This assumption of independence among features is why it's termed "naive."
+
+The algorithm calculates probabilities of a data point belonging to different classes based on the presence of certain features. It's commonly used in text classification tasks, spam filtering, recommendation systems, and more due to its simplicity and efficiency, especially with smaller datasets.
