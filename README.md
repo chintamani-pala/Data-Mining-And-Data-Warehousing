@@ -49,10 +49,19 @@ The experiment covers a range of data mining methodologies and calculations, aim
 - **[Frequent_Patterns_Association_Rules.ipynb]**: Finding frequent patterns and association rules
   -  [find-frequent-patteern-and-strong-association-rules.py] 
 
-## How to Use
+### Running the Code in Google Colab
 
-- Each directory/file contains specific implementations and explanations.
-- Refer to individual files for detailed documentation and code execution instructions.
+1. **Upload Files**:
+   - Upload any necessary datasets or files to your Colab environment using the file upload feature.
+
+2. **File Structure**:
+   - Ensure all experiment files are in the same directory within Colab.
+
+3. **Code Execution**:
+   - Open each file or notebook corresponding to the technique you want to explore.
+   - Review the code documentation within each file for guidance.
+   - Execute the code cells or scripts to run the experiments.
+
 
 ## Contributors
 
